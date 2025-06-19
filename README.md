@@ -38,8 +38,8 @@ Un sistema de chat en tiempo real desarrollado con **NestJS** y **Socket.IO**, q
 
 ```bash
 # Clonar el repositorio
-git clone <tu-repositorio>
-cd chat-nestjs
+git clone https://github.com/Marux/chat-app.git
+cd chat-app
 
 # Instalar dependencias
 npm install
@@ -54,8 +54,8 @@ npm run start:dev
 
 ```bash
 # Clonar el repositorio
-git clone <tu-repositorio>
-cd chat-nestjs
+git clone https://github.com/Marux/chat-app.git
+cd chat-app
 
 # Construir y ejecutar con Docker Compose
 docker-compose up --build
@@ -249,15 +249,14 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👨‍💻 Autor
 
-Tu Nombre - [@tu_usuario](https://github.com/tu_usuario)
+Victor Trimpai - [@Marux](https://github.com/Marux)
 
-Enlace del Proyecto: [https://github.com/tu_usuario/chat-nestjs](https://github.com/tu_usuario/chat-nestjs)
+Enlace del Proyecto: [https://github.com/Marux/chat-app](https://github.com/Marux/chat-app)
 
 ## 🙏 Reconocimientos
 
 - [NestJS](https://nestjs.com/) por el excelente framework
 - [Socket.IO](https://socket.io/) por la comunicación en tiempo real
-- La comunidad de desarrolladores por su apoyo
 
 ---
 
