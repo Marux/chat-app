@@ -2,7 +2,14 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, {
+    cors: {
+      origin: ['https://websocket-arena.netlify.app'],
+      methods: ['GET', 'POST'],
+      credentials: true,
+    },
+  });
+
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
